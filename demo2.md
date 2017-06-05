@@ -31,13 +31,13 @@
 
 图片的引用式链接：  
 外部图片，例子：  
-![baidu](baidu_log) 
-![爱因斯坦](爱因斯坦_图片)  
+![baidu][baidu_log] 
+ 
+- 仓库内的图片  
+![爱因斯坦][aysi_pic]  
 
 
-仓库内的图片：
-![](ayst_jpg)
-
+![][foryou]  
 
 
 
@@ -78,6 +78,6 @@ printf("%d %d\n",a,b);
 [demo1]:(README.md)  
 [代码块 demo]:(demo2.md#代码块-demo)  
 
-[baidu_log]: (https://www.baidu.com/img/bd_logo1.png)
-[爱因斯坦_图片]： （https://imgsa.baidu.com/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=9974a97c09f79052fb124f6c6d9abcaf/d009b3de9c82d158756f83de800a19d8bd3e42f4.jpg)
-[ayst_jpg]: (images/ayst.jpg)  
+[baidu_log]:https://www.baidu.com/img/bd_logo1.png
+[aysi_pic]:images/ayst.jpg
+[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif  
